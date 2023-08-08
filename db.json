@@ -1,58 +1,96 @@
 {
-  "feedback": [
-    {
-      "id": 1,
-      "rating": 10,
-      "user_name": "Tony Stark",
-      "text": "You are the ironman of this world"
-    },
-    {
-      "id": 2,
-      "rating": 9,
-      "user_name": "Bruce Wayne",
-      "text": "You are the batman of this world"
-    },
-    {
-      "id": 3,
-      "rating": 8,
-      "user_name": "Peter Parker",
-      "text": "You are the spiderman of this world"
-    },
-    {
-      "id": 4,
-      "rating": 7,
-      "user_name": "Clark Kent",
-      "text": "You are the superman of this world"
-    },
-    {
-      "id": 5,
-      "rating": 6,
-      "user_name": "Barry Allen",
-      "text": "You are the flash of this world"
-    },
-    {
-      "id": 6,
-      "rating": 5,
-      "user_name": "Oliver Queen",
-      "text": "You are the green arrow of this world"
-    },
-    {
-      "id": 7,
-      "rating": 4,
-      "user_name": "Hal Jordan",
-      "text": "You are the green lantern of this world"
-    },
-    {
-      "id": 8,
-      "rating": 3,
-      "user_name": "Diana Prince",
-      "text": "You are the wonder woman of this world"
-    },
-    {
-      "rating": "10",
-      "text": "You The Best Boy out there",
-      "user_name": "Linda Mutheu",
-      "id": 9
-    }
-  ]
+    "best-product":[
+        {
+            "id"            :   1,
+            "code"          :   "KKR-01",
+            "name"          :   "Kopi Cinta",
+            "description"   :   "Latte With Special Espresso",
+            "price"         :   35000,
+            "is_ready"      :   true,
+            "image"         :   "kopicinta.jpeg"
+        },
+        {
+            "id"            :   2,
+            "code"          :   "KKR-02",
+            "name"          :   "Kopi Sayang",
+            "description"   :   "Latte With Special Fire Titanic",
+            "price"         :   35000,
+            "is_ready"      :   true,
+            "image"         :   "kopisayang.jpeg"
+        },
+        {
+            "id"            :   3,
+            "code"          :   "KKR-03",
+            "name"          :   "Kopi Mantan",
+            "description"   :   "Latte With Special Good Day",
+            "price"         :   35000,
+            "is_ready"      :   true,
+            "image"         :   "kopimantan.jpg"
+        }
+    ],
+    "products" : [
+        {
+            "id"            :   1,
+            "code"          :   "KKR-01",
+            "name"          :   "Kopi Cinta",
+            "description"   :   "Latte With Special Espresso",
+            "price"         :   35000,
+            "is_ready"      :   true,
+            "image"         :   "kopicinta.jpeg"
+        },
+        {
+            "id"            :   2,
+            "code"          :   "KKR-02",
+            "name"          :   "Kopi Sayang",
+            "description"   :   "Latte With Special Fire Titanic",
+            "price"         :   35000,
+            "is_ready"      :   true,
+            "image"         :   "kopisayang.jpeg"
+        },
+        {
+            "id"            :   3,
+            "code"          :   "KKR-03",
+            "name"          :   "Kopi Mantan",
+            "description"   :   "Latte With Special Good Day",
+            "price"         :   35000,
+            "is_ready"      :   true,
+            "image"         :   "kopimantan.jpg"
+        },
+        {
+            "id"            :   4,
+            "code"          :   "KKR-04",
+            "name"          :   "Espresso Kasih Sayang",
+            "description"   :   "Special espresso kopikura",
+            "price"         :   15000,
+            "is_ready"      :   true,
+            "image"         :   "espresso.JPG"
+        },
+        {
+            "id"            :   5,
+            "code"          :   "KKR-05",
+            "name"          :   "Ice Coffee Milk",
+            "description"   :   "Special Coffee With Milk",
+            "price"         :   38000,
+            "is_ready"      :   true,
+            "image"         :   "ice-coffee-milk.jpg"
+        },
+        {
+            "id"            :   6,
+            "code"          :   "KKR-06",
+            "name"          :   "Caramel Coffee",
+            "description"   :   "Special Coffee With Caramel",
+            "price"         :   35000,
+            "is_ready"      :   true,
+            "image"         :   "caramel-coffee.jpg"
+        },
+        {
+            "id"            :   7,
+            "code"          :   "KKR-07",
+            "name"          :   "Coffee Aren",
+            "description"   :   "Special Coffee With Aren",
+            "price"         :   35000,
+            "is_ready"      :   true,
+            "image"         :   "coffee-aren.jpg"
+        }
+    ]
 }
